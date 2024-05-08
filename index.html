@@ -5,8 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Онлайн тренировки</title>
     <link rel="icon" href="images/favicon.svg" type="images/svg+xml">
+    <link rel="stylesheet" href="styles/normalize.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/media.css">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo"></div>
+                <button class="button-menu" onclick="openModal()"></button>
+                <nav class="nav">
+                    <a class="nav-link" href="#">Мероприятия</a>
+                    <a class="nav-link" href="#">Расписание</a>
+                    <a class="nav-link" href="#">О компании</a>
+                </nav>
+                <a class="email" href="mailto:info@freefit.com">info@freefit.com</a>
+            </div>
+        </div>
+    </header>
+    <div class="modal-wrapper" id="modal">
+        <div class="modal">
+            <div class="logo"></div>
+            <nav class="nav _modal">
+                <a class="nav-link" href="#">Мероприятия</a>
+                <a class="nav-link" href="#">Расписание</a>
+                <a class="nav-link" href="#">О компании</a>
+            </nav>
+            <button class="modal-close" onclick="closeModal()"></button>
+        </div>   
+    </div>
+
+    <script src="scripts/script.js"></script>
 </body>
 </html>

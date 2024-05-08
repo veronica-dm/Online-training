@@ -1,0 +1,123 @@
+:root {
+    --yellow: #FBF138;
+    --dark: #2B3541;
+    --gray: #F3F3F3;
+    --gradient: #ff9415;
+    --dark-rgba: 43, 53, 65;
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: local('Montserrat-Bold'), url('../fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: local('Montserrat-Regular'), url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+   font-family: "Montserrat-Regular" , sans-serif; 
+}
+
+a {
+    text-decoration: none;
+}
+ /* Header */
+
+.container {
+    
+    max-width: 1171px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    
+}
+
+.logo {
+    
+    width: 97px;
+    height: 30px;
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    /* gap:92px; */
+    gap:52px;
+    padding-top: 50px;
+    padding-bottom: 27px;
+}
+
+.nav {
+    flex-grow: 1;
+    display: flex;
+    gap:54px;
+    margin-left: min(5vw, 40px);
+}
+
+.nav-link {
+    color: var(--dark);
+    font-size: 18px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: transparent;
+}
+
+.nav-link:hover::after {
+    background-color: var(--dark);
+}
+
+.email {
+    font-family: "Montserrat-Bold" , sans-serif; 
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--dark);
+    position: relative;
+}
+
+.email::before {
+    content:'';
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/Ellipse.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: -15px;
+    top:0;
+    z-index: -1;
+}
+
+.button-menu {
+    display: none;
+    width: 29px;
+    height: 22px;
+    background-image: url(../images/menu.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+
+}
+
+.modal {
+    display: none;
+}
