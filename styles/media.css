@@ -1,3 +1,10 @@
+@media (max-width:1770px) {
+    .girl-banner {
+    right: -20vw;
+    }
+}
+
+
 @media (max-width:883px) {
 
     .header-wrapper{
@@ -14,12 +21,9 @@
     .header-wrapper{
         /* gap:38px; */
         gap: min(7vw, 38px);
-        padding-top: 35px;
-        padding-bottom: 40px;
-        
+        padding-top: 35px;        
     }
 
-    
 
     .nav {
         display: none;
@@ -47,7 +51,7 @@
 
    .modal-wrapper {
         width: 100%;
-        /* max-width: 587px; */
+        max-width: 587px;
         height: 462px;
         position: absolute;
         left:0;
@@ -56,6 +60,7 @@
         top: -700px;
         z-index: 1;
         background-color: rgba(var(--dark-rgba), .4);
+        transition: var(--tr);
    }
 
     .modal {
@@ -94,8 +99,90 @@
         flex-grow: 1;
     }
 
+    .banner-bg {
+        margin-top: 45px;
+    }
+
+    .banner-text {
+        padding-top: 71px;
+    }
+
+    .banner-description{
+        font-size: 16px;
+
+    }
+
+    .girl-banner {
+        right: -10vw;
+        }
+
+
+    .subtitle {
+        margin-bottom: 16px;
+    }
+    .block-description {
+        padding-left: 0 ;
+    }
+
+    .button-arrow {
+        width: 39.25px;
+        height: 40px;
+    }
+
+    .banner {
+        margin-bottom: 67px;
+    }
+
+    /* Grid */
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 224px);
+        grid-template-areas: "a d" "b e" "c f";
+    }
+
+    .item {
+        padding:20px 24px;
+    
+    }
+
+    .date-item {
+        font-size: 16px;
+    }
+    .type {
+        font-size: 16px;
+    }
+
+    .item {
+        gap:35px;
+    }
     
 
+}
+
+@media (max-width:680px) {
+
+    .girl-banner {
+        display: none;
+    }
+    .banner-bg {
+        display: none;
+    }
+
+    .date-item {
+        font-size: 14px;
+    }
+    .type {
+        font-size: 14px;
+    }
+
+    .timetable-title {
+        font-size: 26px;
+        max-width: 200px;  
+    }
+    .date {
+        font-size: 16px;  
+    }
 }
 
 @media (max-width:360px) {
@@ -107,6 +194,42 @@
 
     .header-wrapper {
         padding-top: 32px;
-        padding-bottom: 63px;
     }
+
+    .banner-text {
+        padding-top: 63px;
+    }
+
+    .banner-bg {
+        display: none;
+    }
+
+    .button-arrow {
+        display: none;
+    }
+
+    .banner {
+        margin-bottom: 76px;
+    }
+
+    .grid {
+        grid-template-columns: 330px;
+        grid-template-rows: 114px;
+        grid-template-areas: "a" "d" "b" "e" "c" "f";
+    }
+
+    .item {
+        padding:12px;
+        gap:12px;
+    }
+
+    .img-item {
+        width: 39px;
+        height: 39px;
+    }
+
+    .timetable-block {
+        align-items:center;
+    }
+
 }
