@@ -185,6 +185,30 @@
     }
 }
 
+@media (max-width:630px) {
+
+    .form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 31px;
+    }
+
+    .button-subscribe {
+        /* flex-basis: 330px; */
+        width: 330px;
+    }
+
+    .email-input {
+        width:330px; 
+    }
+    .subscribe-title{
+        font-size: 26px;
+        max-width: 201px;
+    }
+
+}
+
 @media (max-width:360px) {
 
     .logo {
@@ -231,5 +255,12 @@
     .timetable-block {
         align-items:center;
     }
+
+
+    .subscribe-block {
+        padding-top:57px;
+    
+    }
+    
 
 }

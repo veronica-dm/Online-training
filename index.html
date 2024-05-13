@@ -48,42 +48,106 @@
         <div class="container">
             <div class="timetable-block">
                 <h2 class="timetable-title">Расписание тренировок</h2>
-                <p class="date">22 - 28 июня</p>
+                <p class="date">22&nbsp;-&nbsp;28&nbsp;июня</p>
             </div>
             <div class="grid">
                 <div class="item">
                     <p class="date-item">22 июня, 10:00</p>
-                    <img class="img-item" src="images/body.svg" alt="Функциональный тренинг"> 
+                    <img class="img-item-body" src="images/body.svg" alt="Функциональный тренинг"> 
                     <p class="type">Функциональный тренинг</p>
                 </div>
                 <div class="item">
                     <p class="date-item">24 июня, 10:00</p> 
-                    <img class="img-item" src="images/bottle.svg" alt="Body sculpt">
+                    <img class="img-item-body-sculpt" src="images/bottle.svg" alt="Body sculpt">
                     <p class="type">Body sculpt</p>
                 </div>
                 <div class="item">
                     <p class="date-item">26 июня, 11:00</p> 
-                    <img class="img-item" src="images/dumbbell.svg" alt="L.A.B.">
+                    <img class="img-item-lab" src="images/dumbbell.svg" alt="L.A.B.">
                     <p class="type">L.A.B.</p>
                 </div>
                 <div class="item">
                     <p class="date-item">23 июня, 10:00</p> 
-                    <img class="img-item" src="images/jump.svg" alt="Силовой микс">
+                    <img class="img-item-jump" src="images/jump.svg" alt="Силовой микс">
                     <p class="type">Силовой микс</p>
                 </div>
                 <div class="item">
                     <p class="date-item">25 июня, 11:00</p> 
-                    <img class="img-item" src="images/heart.svg" alt="Дыхательные практики">
+                    <img class="img-item-heart" src="images/heart.svg" alt="Дыхательные практики">
                     <p class="type">Дыхательные практики</p>
                 </div>
                 <div class="item">
                     <p class="date-item">27 июня, 11:00</p> 
-                    <img class="img-item" src="images/weight.svg" alt="Комплексная разминка">
+                    <img class="img-item-weight" src="images/weight.svg" alt="Комплексная разминка">
                     <p class="type">Комплексная разминка</p>
                 </div>
             </div>
         </div>
     </section>
+    <section class="subscribe">
+        <div class="subscribe-block">
+            <p class="subscribe-title">Подпишитесь&nbsp;на рассылку</p>
+            <form action="" class="form">
+                <div class="input-block">
+                    <input class="email-input" placeholder="Ваш e-mail" type="email">
+                    <div class="agreement">
+                        <input type="checkbox" id="checkbox-id" class="checkbox">
+                        <label for="checkbox-id">Согласен с обработкой <a href="#" target="_blank">персональных данных</a></label>
+                    </div>
+                </div>
+                <button class="button-subscribe" type="submit">Подписаться</button>
+             </form>
+        </div>
+    </section>
+     <section class="about">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-text">
+                    <p class="about-title">О компании</p>
+                    <p class="about-description">
+                        Наша компания является одной из немногих, кто предлагает фитнес услуги онлайн! Оставайтесь с&nbsp;нами и вы сами увидите, что мы проводим не&nbsp;только онлайн-тренировки.
+                    </p>
+                    <button class="button-about" type="submit">Записаться</button>
+                </div>
+                <div class="about-bg"></div>
+            </div>
+            <div class="features">
+                <div class="features-item">
+                    <p class="features-title">Экономия времени </p>
+                    <p class="features-description">Не нужно тратить время на дорогу</p>
+                </div>
+                <div class="features-item">
+                    <p class="features-title">Индивидуальный&nbsp;подход</p>
+                    <p class="features-description">Внимание тренера пренадлежит только вам</p>
+                </div>
+                <div class="features-item">
+                    <p class="features-title">Экономия денег</p>
+                    <p class="features-description">Средняя цена одной тренировки - 700₽</p>
+                </div>
+                <div class="features-item">
+                    <p class="features-title">Опытный персонал</p>
+                    <p class="features-description">Стаж работы у наших тренеров от 5 лет</p>
+                </div>
+            </div>
+        </div>
+     </section>
+     <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="logo"></div>
+                <nav class="nav-footer">
+                    <a class="footer-link" href="#">Мероприятия</a>
+                    <a class="footer-link" href="#">Расписание</a>
+                    <a class="footer-link" href="#">О компании</a>
+                </nav>
+                <a class="email" href="mailto:info@freefit.com">info@freefit.com</a>
+            </div>
+            <div class="copyright">
+                <p class="copy-left">© 2022, Все права защищены</p>
+                <p class="copy-right">Сделано в рамках курса учебной платформы Frontend Blok</p>
+            </div>
+        </div>
+    </footer>
 
     <div class="modal-wrapper" id="modal">
         <div class="modal">
@@ -98,5 +162,6 @@
     </div>
 
     <script src="scripts/script.js"></script>
+    
 </body>
 </html>
