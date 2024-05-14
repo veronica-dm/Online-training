@@ -1,7 +1,56 @@
 @media (max-width:1770px) {
     .girl-banner {
-    right: -20vw;
+    right: -2vw;
     }
+}
+
+@media (max-width:1148px) {
+    
+    .about-bg {
+    
+        background-size: cover;
+        height: 358px;
+        
+     }
+     .about-wrapper {
+        gap:38px;
+        margin-top: 90px;
+        margin-bottom: 34px;
+     }
+}
+
+@media (max-width:1060px) {
+    .features {
+        /* flex-wrap: wrap;
+        align-items: center; */
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 83px;
+        gap:43px;
+       
+     }
+
+     .features-description {
+        
+        font-size: 16px;
+        
+     }
+    
+
+     .features-item:nth-child(1) {
+        max-width: 208px;
+     }
+    
+     .features-item:nth-child(2) {
+        max-width: 251px;
+     }
+    
+     .features-item:nth-child(3) {
+        max-width: 184px;
+     }
+
+     .features-item:nth-child(4) {
+        max-width: 193px;
+     }
 }
 
 
@@ -14,13 +63,18 @@
     .nav {
         gap:30px;
     }
+
+    .nav-footer {
+        gap:40px;
+    }
+
 }
 
 @media (max-width:768px) {
     
     .header-wrapper{
         /* gap:38px; */
-        gap: min(7vw, 38px);
+        gap: min(11vw, 38px);
         padding-top: 35px;        
     }
 
@@ -101,6 +155,7 @@
 
     .banner-bg {
         margin-top: 45px;
+        height: 493px;
     }
 
     .banner-text {
@@ -113,7 +168,7 @@
     }
 
     .girl-banner {
-        right: -10vw;
+        right: -3vw;
         }
 
 
@@ -128,6 +183,7 @@
         width: 39.25px;
         height: 40px;
     }
+
 
     .banner {
         margin-bottom: 67px;
@@ -156,6 +212,52 @@
     .item {
         gap:35px;
     }
+
+    .timetable {
+        margin-bottom:76px;
+    }
+    .img-item-jump {
+        width: 43px;
+        height: 69px;
+    }
+
+    .about {
+        margin-bottom:76px;
+    }
+
+    .button-about {
+        width: 214px;
+        
+     }
+
+
+     ._footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+     .nav-footer {
+        display: none;
+    }
+
+    .email-footer {
+        display: none;
+    }
+
+    .copy-left {
+        display: none;
+    }
+
+    .copy-right {
+
+        font-size: 10px;
+        text-align: right;
+    
+    }
+    
     
 
 }
@@ -183,9 +285,11 @@
     .date {
         font-size: 16px;  
     }
-}
 
-@media (max-width:630px) {
+    .subscribe {
+    
+        height: 360px;
+    }
 
     .form {
         flex-direction: column;
@@ -199,15 +303,89 @@
         width: 330px;
     }
 
+    .button-banner {
+        width: 330px;
+    }
+
     .email-input {
         width:330px; 
     }
-    .subscribe-title{
+    
+
+    .button-about {
+        /* flex-basis: 330px; */
+        width: 330px;
+    }
+
+    .subscribe {
+    
+        height: 416px;
+    }
+
+    .subscribe-block {
+        padding-top:57px;
+        padding-bottom:64px;
+    
+    }
+
+    .subscribe-title {
         font-size: 26px;
         max-width: 201px;
     }
 
+    .about-bg {
+        display: none;
+    }
+
+    .about-wrapper {
+       
+       align-items: center;
+     }
+
+    .about-title {
+        font-size: 26px;  
+    }
+
+    .about-description {
+        font-size: 16px; 
+    }
+
+    .about-wrapper {
+        margin-top: 76px;
+        margin-bottom: 57px;
+        gap:0;
+     }
+
+     .about-text {
+        max-width:340px;
+     }
+
+     .about-wrapper {
+        margin-top: 76px;
+     }
+
+     .about {
+        margin-bottom:68px;
+    }
+
+    .features-item {
+        gap:16px;
+    }
+
+    .features {
+
+        grid-template-columns: 452px;
+        grid-template-rows: repeat(1, 1fr);        
+        gap:40px;
+    }
+
+    .features-title {
+        
+        font-size: 16px;
+        
+     }
 }
+
 
 @media (max-width:360px) {
 
@@ -254,12 +432,52 @@
 
     .timetable-block {
         align-items:center;
+        margin-bottom: 20px;
     }
 
 
-    .subscribe-block {
-        padding-top:57px;
+    .img-item-body {
+        width: 39px;
+        height: 39px;
+    }
     
+    .img-item-body-sculpt {
+        width: 23px;
+        height: 45px;
+    }
+    
+    .img-item-lab {
+        width: 46px;
+        height: 25px;
+    }
+    
+    .img-item-jump {
+        width: 34px;
+        height: 53px;
+    }
+    
+    .img-item-heart {
+        width: 39px;
+        height: 37px;
+    }
+    
+    .img-item-weight {
+        width: 35px;
+        height: 40px;
+    }
+
+    .subscribe-title::before {
+        width: 31px;
+        height: 31px;
+        left: -15px;
+        top:-10px;
+      
+    }
+
+    .logo-footer {
+    
+        width: 78px;
+        height: 24px;
     }
     
 
