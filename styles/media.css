@@ -293,7 +293,8 @@
     }
 
     .grid {
-        grid-template-columns: 330px;
+        /* grid-template-columns: 330px; */
+        grid-template-columns: 1fr;
         grid-template-rows: 114px;
         grid-template-areas: "a" "d" "b" "e" "c" "f";
     }

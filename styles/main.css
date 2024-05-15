@@ -587,7 +587,7 @@ a {
 }
 
 .about-text {
-    
+
     max-width: clamp(318px,26vw,483px);
 }
 
@@ -623,7 +623,7 @@ a {
 }
 
  .features {
-    /* display: flex; */
+    
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 97px;
@@ -634,7 +634,6 @@ a {
  .features-item {
     display: flex;
     flex-direction: column;
-    /* flex-basis: 50%; */
     gap:20px;
     
 
