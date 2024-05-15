@@ -16,9 +16,9 @@
                 <div class="logo"></div>
                 <button class="button-menu" onclick="openModal()"></button>
                 <nav class="nav">
-                    <a class="nav-link" href="#">Мероприятия</a>
-                    <a class="nav-link" href="#">Расписание</a>
-                    <a class="nav-link" href="#">О компании</a>
+                    <a class="nav-link" href="#timetable-id">Мероприятия</a>
+                    <a class="nav-link" href="#timetable-id">Расписание</a>
+                    <a class="nav-link" href="#company-id">О компании</a>
                 </nav>
                 <a class="email" href="mailto:info@freefit.com">info@freefit.com</a>
             </div>
@@ -34,9 +34,11 @@
                     <p class="subtitle"><span class="num-subtitle">&gt;&nbsp;15</span> <span>тренировок</span></p>
                     <div class="block-description">
                         <p class="banner-description">в области спортивной физиологии и нутрициологии</p>
-                        <button class="button-banner">узнать подробнее</button> 
+                        <!-- <button class="button-banner">узнать подробнее</button>  -->
+                        <a href="#timetable-id" class="button-banner">узнать подробнее</a>
                     </div>
-                    <img src="images/arrow-banner.svg" alt="вниз" class="button-arrow">
+                    <a href="#timetable-id">
+                    <img src="images/arrow-banner.svg" alt="вниз" class="button-arrow"></a>
                 </div>
                 <div class="banner-bg">
                 </div>
@@ -44,7 +46,7 @@
             </div>
         </div>
     </section>
-    <section class="timetable">
+    <section id="timetable-id" class="timetable">
         <div class="container">
             <div class="timetable-block">
                 <h2 class="timetable-title">Расписание тренировок</h2>
@@ -99,7 +101,7 @@
              </form>
         </div>
     </section>
-     <section class="about">
+     <section id="company-id" class="about">
         <div class="container">
             <div class="about-wrapper">
                 <div class="about-text">
@@ -136,9 +138,9 @@
             <div class="footer-wrapper">
                 <div class="logo-footer"></div>
                 <nav class="nav-footer">
-                    <a class="footer-link" href="#">Мероприятия</a>
-                    <a class="footer-link" href="#">Расписание</a>
-                    <a class="footer-link" href="#">О компании</a>
+                    <a class="footer-link" href="#timetable-id">Мероприятия</a>
+                    <a class="footer-link" href="#timetable-id">Расписание</a>
+                    <a class="footer-link" href="#company-id">О компании</a>
                 </nav>
                 <a class="email-footer" href="mailto:info@freefit.com">info@freefit.com</a>
             </div>
@@ -153,9 +155,9 @@
         <div class="modal">
             <div class="logo"></div>
             <nav class="nav _modal">
-                <a class="nav-link" href="#">Мероприятия</a>
-                <a class="nav-link" href="#">Расписание</a>
-                <a class="nav-link" href="#">О компании</a>
+                <a class="nav-link" href="#timetable-id">Мероприятия</a>
+                <a class="nav-link" href="#timetable-id">Расписание</a>
+                <a class="nav-link" href="#company-id">О компании</a>
             </nav>
             <button class="modal-close" onclick="closeModal()"></button>
         </div>   

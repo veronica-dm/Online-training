@@ -233,7 +233,7 @@ a {
 
 .timetable-block {
     display: flex;
-    align-items:flex-start;
+    align-items:baseline;
     justify-content: space-between;
     margin-bottom: 38px;
 }

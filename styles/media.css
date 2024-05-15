@@ -88,10 +88,15 @@
         padding-bottom: 20px;
     }
 
+    .nav-link:hover::after {
+        background-color: transparent;
+    }
+
     .nav-link:not(:last-child) {
         border-bottom: 1px solid rgba(var(--dark-rgba), .2);
     
     }
+
 
     .nav._modal {
         display: flex;
@@ -286,6 +291,53 @@
         font-size: 16px;  
     }
 
+    .grid {
+        grid-template-columns: 330px;
+        grid-template-rows: 114px;
+        grid-template-areas: "a" "d" "b" "e" "c" "f";
+    }
+
+    .item {
+        padding:12px;
+        gap:12px;
+    }
+
+    .img-item {
+        width: 39px;
+        height: 39px;
+    }
+
+    
+    .img-item-body {
+        width: 39px;
+        height: 39px;
+    }
+    
+    .img-item-body-sculpt {
+        width: 23px;
+        height: 45px;
+    }
+    
+    .img-item-lab {
+        width: 46px;
+        height: 25px;
+    }
+    
+    .img-item-jump {
+        width: 34px;
+        height: 53px;
+    }
+    
+    .img-item-heart {
+        width: 39px;
+        height: 37px;
+    }
+    
+    .img-item-weight {
+        width: 35px;
+        height: 40px;
+    }
+
     .subscribe {
     
         height: 360px;
@@ -414,56 +466,10 @@
         margin-bottom: 76px;
     }
 
-    .grid {
-        grid-template-columns: 330px;
-        grid-template-rows: 114px;
-        grid-template-areas: "a" "d" "b" "e" "c" "f";
-    }
-
-    .item {
-        padding:12px;
-        gap:12px;
-    }
-
-    .img-item {
-        width: 39px;
-        height: 39px;
-    }
 
     .timetable-block {
-        align-items:center;
+        
         margin-bottom: 20px;
-    }
-
-
-    .img-item-body {
-        width: 39px;
-        height: 39px;
-    }
-    
-    .img-item-body-sculpt {
-        width: 23px;
-        height: 45px;
-    }
-    
-    .img-item-lab {
-        width: 46px;
-        height: 25px;
-    }
-    
-    .img-item-jump {
-        width: 34px;
-        height: 53px;
-    }
-    
-    .img-item-heart {
-        width: 39px;
-        height: 37px;
-    }
-    
-    .img-item-weight {
-        width: 35px;
-        height: 40px;
     }
 
     .subscribe-title::before {
