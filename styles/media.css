@@ -9,6 +9,7 @@
     .about-bg {
     
         background-size: cover;
+        background-position: center center;
         height: 358px;
         
      }

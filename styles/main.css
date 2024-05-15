@@ -206,6 +206,7 @@ a {
     background-color: var(--yellow);
     color: var(--dark);
     width: 252px;
+    box-sizing: border-box;
     border: 0;
     padding: 20px 20px;
     text-align: center;
@@ -586,15 +587,12 @@ a {
 }
 
 .about-text {
-    /* flex-basis:50%; */
+    
     max-width: clamp(318px,26vw,483px);
-    /* max-width: 483px; */
 }
 
 .about-bg {
     
-    /* width: clamp(382px,17vw,581px); */
-    /* height: clamp(336px,17vw,358px); */
     width: 581px;
     height: 336px;
     background-image: url(../images/about.png);
