@@ -21,10 +21,16 @@
 }
 
 @media (max-width:1060px) {
+
+    .about-wrapper {
+        justify-content:flex-start;
+    }
+
     .features {
         /* flex-wrap: wrap;
         align-items: center; */
-        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-columns: repeat(2, 1fr); */
+        grid-template-columns: 314px 356px; 
         grid-template-rows: 83px;
         gap:43px;
        
