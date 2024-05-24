@@ -6,6 +6,6 @@
 }
 
 function closeModal() {
-    document.getElementById("modal").style.top = "-700px";
+    document.getElementById("modal").style.top = "-7000px";
     //document.getElementById("modal").style.display = "none";
 }

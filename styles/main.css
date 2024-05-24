@@ -292,6 +292,7 @@ a {
 
 .item:hover {
     border: none;
+    /* border: linear-gradient(90deg,#FBF138 0%,rgba(253, 249, 182, 0.45) 145.23%) ; */
     background: linear-gradient(90deg,#FBF138 0%,rgba(253, 249, 182, 0.45) 145.23%) ;
 }
 

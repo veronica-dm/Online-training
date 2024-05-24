@@ -13,7 +13,7 @@
     <header>
         <div class="container">
             <div class="header-wrapper">
-                <div class="logo"></div>
+                <a href="/"><div class="logo"></div></a>
                 <button class="button-menu" onclick="openModal()"></button>
                 <nav class="nav">
                     <a class="nav-link" href="#timetable-id">Мероприятия</a>
@@ -155,9 +155,9 @@
         <div class="modal">
             <div class="logo"></div>
             <nav class="nav _modal">
-                <a class="nav-link" href="#timetable-id">Мероприятия</a>
-                <a class="nav-link" href="#timetable-id">Расписание</a>
-                <a class="nav-link" href="#company-id">О компании</a>
+                <a class="nav-link" href="#timetable-id" onclick="closeModal()">Мероприятия</a>
+                <a class="nav-link" href="#timetable-id" onclick="closeModal()">Расписание</a>
+                <a class="nav-link" href="#company-id" onclick="closeModal()">О компании</a>
             </nav>
             <button class="modal-close" onclick="closeModal()"></button>
         </div>   
